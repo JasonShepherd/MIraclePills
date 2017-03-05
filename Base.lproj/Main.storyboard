@@ -220,8 +220,12 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="countryLabel" destination="qKO-S8-ggK" id="oiY-EL-N3J"/>
+                        <outlet property="countryTextField" destination="2UV-0z-F4g" id="WxL-lU-c2n"/>
                         <outlet property="statePicker" destination="5Wo-a9-csM" id="zyL-IB-lwM"/>
                         <outlet property="statePickerButton" destination="vHm-9K-5hw" id="9yJ-KN-yRt"/>
+                        <outlet property="zipCodeLabel" destination="cz0-N3-Ydd" id="y8g-ou-ZqD"/>
+                        <outlet property="zipCodeTextField" destination="Hz8-vQ-1QC" id="Zwh-OX-LXw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -253,7 +257,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SzQ-Hv-Ejm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="173.59999999999999" y="20.239880059970016"/>
+            <point key="canvasLocation" x="175" y="14"/>
         </scene>
     </scenes>
     <resources>
